@@ -7,7 +7,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="UseCases\" />
+      <PackageReference Include="Flunt" Version="1.0.5" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Core.Domain\Core.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Repositorio\Queries\" />
     </ItemGroup>
 
 </Project>
