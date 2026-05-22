@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4SD5nRYaAY8=",
+  "dgSpecHash": "jm39SFrJvtA=",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\PosNET\\Adapters\\Adapters.SqlServer\\Adapters.SqlServer.csproj",
+  "projectFilePath": "C:\\Workspace\\ArquiteturaHexagonal\\Adapters\\Adapters.SqlServer\\Adapters.SqlServer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

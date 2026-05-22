@@ -1,30 +1,55 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "Flunt/1.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Flunt/1.0.5": {
+      "sha512": "2p1B/LLsMf0bGwyMQK48/278OXTodXn3HyTU1v7fr/x0bNfrVSNC1Do1PxbgiOlDLChtAbtt1kPgXFqUnGAagg==",
+      "type": "package",
+      "path": "flunt/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.1.0.5.nupkg.sha512",
+        "flunt.nuspec",
+        "lib/netstandard2.0/Flunt.dll"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "Flunt >= 1.0.5"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\usuario-27735\\.nuget\\packages\\": {},
+    "C:\\Users\\ogahr\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\PosNET\\Core\\Core.Domain\\Core.Domain.csproj",
+      "projectUniqueName": "C:\\Workspace\\ArquiteturaHexagonal\\Core\\Core.Domain\\Core.Domain.csproj",
       "projectName": "Core.Domain",
-      "projectPath": "C:\\Projetos\\PosNET\\Core\\Core.Domain\\Core.Domain.csproj",
-      "packagesPath": "C:\\Users\\usuario-27735\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\PosNET\\Core\\Core.Domain\\obj\\",
+      "projectPath": "C:\\Workspace\\ArquiteturaHexagonal\\Core\\Core.Domain\\Core.Domain.csproj",
+      "packagesPath": "C:\\Users\\ogahr\\.nuget\\packages\\",
+      "outputPath": "C:\\Workspace\\ArquiteturaHexagonal\\Core\\Core.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\usuario-27735\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ogahr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -37,6 +62,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {}
         }
@@ -55,7 +81,14 @@
     },
     "frameworks": {
       "net10.0": {
+        "framework": "net10.0",
         "targetAlias": "net10.0",
+        "dependencies": {
+          "Flunt": {
+            "target": "Package",
+            "version": "[1.0.5, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -72,7 +105,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

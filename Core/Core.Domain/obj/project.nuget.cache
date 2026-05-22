@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XD7XJwMTTqc=",
+  "dgSpecHash": "RD2OtJhd2wQ=",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\PosNET\\Core\\Core.Domain\\Core.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Workspace\\ArquiteturaHexagonal\\Core\\Core.Domain\\Core.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ogahr\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

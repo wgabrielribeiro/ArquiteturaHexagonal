@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\PosNET\\Tests\\Tests.UnitTests\\Tests.UnitTests.csproj": {}
+    "C:\\Workspace\\ArquiteturaHexagonal\\Tests\\Tests.UnitTests\\Tests.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\PosNET\\Tests\\Tests.UnitTests\\Tests.UnitTests.csproj": {
+    "C:\\Workspace\\ArquiteturaHexagonal\\Tests\\Tests.UnitTests\\Tests.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\PosNET\\Tests\\Tests.UnitTests\\Tests.UnitTests.csproj",
+        "projectUniqueName": "C:\\Workspace\\ArquiteturaHexagonal\\Tests\\Tests.UnitTests\\Tests.UnitTests.csproj",
         "projectName": "Tests.UnitTests",
-        "projectPath": "C:\\Projetos\\PosNET\\Tests\\Tests.UnitTests\\Tests.UnitTests.csproj",
-        "packagesPath": "C:\\Users\\usuario-27735\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\PosNET\\Tests\\Tests.UnitTests\\obj\\",
+        "projectPath": "C:\\Workspace\\ArquiteturaHexagonal\\Tests\\Tests.UnitTests\\Tests.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\ogahr\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\ArquiteturaHexagonal\\Tests\\Tests.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\usuario-27735\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ogahr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -30,6 +30,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -48,8 +49,13 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.14.0, )"
@@ -87,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

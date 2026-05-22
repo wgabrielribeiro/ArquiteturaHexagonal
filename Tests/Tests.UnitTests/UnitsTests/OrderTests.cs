@@ -1,6 +1,7 @@
-﻿namespace Tests.UnitTests;
+﻿using Flunt.Notifications;
 
-public class Tests
+namespace Tests.UnitTests.UnitsTests;
+public class OrderTests : Notifiable
 {
     [SetUp]
     public void Setup()
