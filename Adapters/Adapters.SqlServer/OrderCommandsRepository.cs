@@ -6,7 +6,7 @@ using Microsoft.Data.SqlClient;
 
 namespace Adapters.SqlServer;
 
-public class OrderCommandRepository : IOrderCommandsRepository
+public class OrderCommandsRepository : IOrderCommandsRepository
 {
 
     public void PlaceOrder(Customer customer, Order order)
